@@ -20,8 +20,7 @@ onMounted(() => {
 function init() {
     scene = new THREE.Scene();
 
-    camera = new THREE.PerspectiveCamera(25, window.innerWidth / window.innerHeight, 0.01, 20);
-    camera.position.z = 5;
+    camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.01, 1000);
 
     const light = new THREE.HemisphereLight(0xffffff, 0xbbbbff, 3);
     light.position.set(0.5, 1, 0.25);

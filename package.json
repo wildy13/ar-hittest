@@ -11,7 +11,7 @@
   "dependencies": {
     "gsap": "^3.12.5",
     "nuxt": "^3.12.4",
-    "three": "^0.167.0",
+    "three": "^0.167.1",
     "vue": "latest"
   },
   "devDependencies": {
